@@ -3,7 +3,7 @@ using MyShop.Model.Models;
 
 namespace MyShop.Data.Repositories
 {
-    public interface IMenuRepository
+    public interface IMenuRepository : IRepository<Menu>
     {
     }
 
