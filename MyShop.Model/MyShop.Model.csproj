@@ -77,10 +77,6 @@
       <Project>{068d755c-58d7-4260-b487-e42e7a1d99d5}</Project>
       <Name>MyShop.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MyShop.Data\MyShop.Data.csproj">
-      <Project>{c87924f8-817c-4c35-9565-d1f674269279}</Project>
-      <Name>MyShop.Data</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

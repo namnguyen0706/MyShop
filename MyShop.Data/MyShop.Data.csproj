@@ -58,6 +58,13 @@
       <Project>{068d755c-58d7-4260-b487-e42e7a1d99d5}</Project>
       <Name>MyShop.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyShop.Model\MyShop.Model.csproj">
+      <Project>{99109eeb-295f-4641-820e-6c8b27ab13ac}</Project>
+      <Name>MyShop.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Infrastructure\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
